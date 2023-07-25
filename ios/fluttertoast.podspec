@@ -16,6 +16,7 @@ Toast Library for FLutter
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'Toast'
+  s.ios.deployment_target = '11.0'
   s.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64', 'DEFINES_MODULE' => 'YES'}
 end
 
